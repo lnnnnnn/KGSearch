@@ -1,0 +1,103 @@
+{
+    "root": [
+        "xiao",
+        "taxonomy",
+        "知识库",
+        "领域",
+        "技术",
+        "实体",
+        "关系",
+        "研究",
+        "信息",
+        "分类",
+        "entities",
+        "entity",
+        "自动",
+        "文本",
+        "训练",
+        "机器",
+        "项目"
+    ],
+    "xiao": [
+        "universityyanghua",
+        "hwang",
+        "wei",
+        "huang",
+        "acceptance",
+        "acceptance"
+    ],
+    "universityyanghua": [],
+    "hwang": [],
+    "wei": [],
+    "huang": [],
+    "acceptance": [],
+    "taxonomy": [],
+    "知识库": [],
+    "领域": [],
+    "技术": [
+        "技术路线",
+        "技术成果"
+    ],
+    "技术路线": [],
+    "技术成果": [],
+    "实体": [
+        "上位概念",
+        "实体链接"
+    ],
+    "上位概念": [],
+    "实体链接": [],
+    "关系": [
+        "上下位",
+        "关联关系",
+        "isa关系"
+    ],
+    "上下位": [],
+    "关联关系": [],
+    "isa关系": [],
+    "研究": [],
+    "信息": [],
+    "分类": [
+        "大规模分类",
+        "分类体系"
+    ],
+    "大规模分类": [],
+    "分类体系": [],
+    "entities": [
+        "seed",
+        "synchronizingprinciple",
+        "wasteful",
+        "synchronization",
+        "seeds",
+        "synchronizing",
+        "donald",
+        "donald",
+        "denoted",
+        "expanding"
+    ],
+    "seed": [],
+    "synchronizingprinciple": [],
+    "wasteful": [],
+    "synchronization": [],
+    "seeds": [],
+    "synchronizing": [],
+    "donald": [],
+    "denoted": [],
+    "expanding": [],
+    "entity": [
+        "seed",
+        "synchronizingprinciple",
+        "synchronizing",
+        "synchronize"
+    ],
+    "synchronize": [],
+    "自动": [],
+    "文本": [],
+    "训练": [
+        "训练数据",
+        "训练过程"
+    ],
+    "训练数据": [],
+    "训练过程": [],
+    "机器": [],
+    "项目": []
+}

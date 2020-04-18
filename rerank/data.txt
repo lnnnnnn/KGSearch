@@ -1,0 +1,2 @@
+ss111111	nb-iot otdoa	搜产品资料	【2018 IoT 王牌训练营】第三讲：NB loT定位业务＆things Coverage_ 201805.16	http://3ms.huawel.com/mm/docMaintain/mmMajntain.do?method=showMMDetajl&f_id=MSS180521083216377
+ax345643	nb-iot feature	搜产品资料	LPWA解决方案	http://3ms.huawei.com/mm/docMaintain/mmMaintain.do?method=showMMDetail&f_id=loTi80528003113154

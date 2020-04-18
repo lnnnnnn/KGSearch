@@ -1,0 +1,12 @@
+{
+  "host": "localhost:27017",
+  "user": "",
+  "passwd": "",
+  "db": "doc_search",
+  "auth_mech": "SCRAM-SHA-1",
+  "triples": "triples",
+  "nodes":"nodes",
+  "documents": "documents",
+  "inv_doc": "inv_doc",
+  "inv_idx": "inv_idx"
+}
