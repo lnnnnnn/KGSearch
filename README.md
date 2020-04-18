@@ -22,7 +22,7 @@
 
 &emsp;b.根据图谱将标签词用bfs做扩展，得到更多标签，计算所有标签的权重
 
-	&emsp;&emsp;权重计算：
+&emsp;&emsp;权重计算：
 	
 &emsp;&emsp;*i.* &ensp;标签词：（扩展词最大权重+扩展词权重和）* *w1*
 
@@ -50,38 +50,64 @@
 
 
 KGSearch/
+
 ├── data （训练数据以及输出文件）
+
 ├── db   (倒排索引库样例文件)
+
 ├── rerank (重排模型)
+
 │&emsp;&emsp;├── rerank (ranknet模型)
+
 │&emsp;&emsp;├── main (训练模型)
+
 │&emsp;&emsp;└── example (调用模型)
+
 ├── style
+
 ├── TagGraph （图谱构建）
+
 │&emsp;&emsp;├── gen_rels_coocc.py （生成共现关系）
+
 │&emsp;&emsp;├── gen_rels_isa.py （生成isA关系）
+
 │&emsp;&emsp;├── new_word.py （新词发现）
+
 │&emsp;&emsp;└── tag_doc.py （给文档打标签）
+
 ├── BM25.py (召回)
+
 ├── gen_rels.py (生成关系)
+
 ├── gen_tags.py (生成标签)
+
 ├── kg_utils.py (操作库文件工具)
+
 ├── kw_api.py (CNDBPedia api )
+
 ├── make_docu_txts.py (文件处理)
+
 ├── search.py (搜索框架)
+
 ├── utils.py （常用工具）
+
 └──  wtrie.py（字典树）
+
 
 
 ----------
 代码为系统核心框架及算法的复现，去除了意图识别等特征处理算法以及高度匹配华为数据需求的代码。
 
 Others:
+
 api调用kw实验室的中文知识图谱CNDBPedia，详情见 http://kw.fudan.edu.cn/cndbpedia/search/
 
-----------
+
 ## 运行步骤 ##
 1.运行TagGraph模块构建图谱
+
 2.rerank模块训练ranknet网络
+
 3.运行search.py server 启动服务，端口号41324
+
 
